@@ -13,7 +13,7 @@ namespace sevelteFPV
         private static Harmony instance;
 
         public static bool IsPatched { get; private set; }
-        public const string InstanceId = PluginInfo.GUID;
+        public const string InstanceId = "org.sevelte.gorillatag.fpv";
 
         internal static void ApplyHarmonyPatches()
         {
