@@ -3,9 +3,9 @@ using System;
 using UnityEngine;
 using Utilla;
 
-namespace sevelteFPV {
+namespace oscarFPV {
   [BepInDependency("org.legoandmars.gorillatag.utilla", "1.5.0")]
-  [BepInPlugin("org.sevelte.gorillatag.fpv", "First Person Camera", "1.0.0")]
+  [BepInPlugin("org.oscar.gorillatag.fpv", "Oscar's FPV", "1.1.0")]
   
   public class Plugin : BaseUnityPlugin
   {

@@ -2,7 +2,7 @@
 using System;
 using System.Reflection;
 
-namespace sevelteFPV
+namespace oscarFPV
 {
     /// <summary>
     /// This class handles applying harmony patches to the game.
@@ -13,7 +13,7 @@ namespace sevelteFPV
         private static Harmony instance;
 
         public static bool IsPatched { get; private set; }
-        public const string InstanceId = "org.sevelte.gorillatag.fpv";
+        public const string InstanceId = "org.oscar.gorillatag.fpv";
 
         internal static void ApplyHarmonyPatches()
         {
