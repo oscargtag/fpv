@@ -1,4 +1,4 @@
-# Sevelte FPV
+# Oscar's FPV
 Basic first person camera mod for Gorilla Tag. It does not do anything else.
 
 ## Why does this even exist?
